@@ -1,8 +1,13 @@
-import logo from './logo.svg';
+import PersonTable from "./components/PersonTable";
+import PieChartContainer from "./containers/PieChartContainer";
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
+      <div className="contents-wrapper">
+        <PieChartContainer />
+        <PersonTable className="person-table" />
+      </div>
     </div>
   );
 }
